@@ -19,9 +19,13 @@ input {
   margin-right: 10px;
 }
 button {
-  background: #000;
+  background: #2563EB;
+  border: 1px solid #2563EB;
   color: #fff;
-  border: 1px solid #000;
   padding: 8px 18px;
   margin-left: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background: #1D4ED8;
 }
