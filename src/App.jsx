@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import "./App.css"
 
 function App() {
   const [username, setUsername] = useState('');
@@ -150,7 +151,7 @@ function App() {
 
       {isLoggedIn ? (
         <div>
-          <p>You are logged in! ✅</p>
+          <p style={{ marginBottom: '15px' }}>You are logged in! ✅</p>
           <button onClick={handleLogout}>Logout</button>
 
           <br />
@@ -185,7 +186,7 @@ function App() {
             ))}
           </ul>
 
-          <h3>Add New Product</h3>
+          <h2>Add New Product</h2>
           <form onSubmit={handleAddProduct}>
             <input
               type="text"
